@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel=”icon” type="image/png" href=“favi_dog.png”>
+  <title>わん！</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/vue-typer/dist/vue-typer.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+<script src="https://unpkg.com/vue-ui-preloader"></script>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/vue-ui-preloader/dist/loader.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <style>
+        body 
+        {
+          font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+          /* font-family: 'Yusei Magic', sans-serif; */
+          
+        }
+        #app{
+            font-family: 'Kiwi Maru', serif;
+        }
+        .container
+        {
+           font-size: 15pt;
+        }
+        /* .btn
+        {
+            color: cornflowerblue;
+        } */
+        .column
+        {
+            /* float: left; */
+            font-family: 'Kiwi Maru', serif;
+            margin-right: 1px;
+            text-align: center;
+            font-size: 200%;
+        }
+        .clear
+        {
+            clear: left;
+        }
+        .answers
+        {
+            font-family: 'Kiwi Maru', serif;
+            margin-right: 1px;
+            float: left;
+            font-size: 30px;
+            /* color: cornflowerblue; */
+        }
+        .main
+        {
+            text-align: center;
+            align-content: center;
+        }
+        .que
+        {
+            font-size: 20px;
+            display:inline-block;
+            text-align:left;
+        }
+        .num
+        {
+            font-size: 30px;
+            transition : ease-out 0.5s;
+        }
+        .type
+        {
+            font-size: 30px;
+        }
+        .load
+        {
+            height: 10px;
+            size: 10px;
+            width: 5px;
+        }
+        
+        
+    </style>
+
+    <div id="app">
+        <v-app>
+          <v-main class="main">
+           <div v-show="show1">
+              
+            <v-container>題 {{num}} 問！</v-container>
+            <vue-typer class="type" :text="Question" :type-speed="30" :repeat="0" :preTypeDelay="0"　:erase-on-complete="false">                
+            </vue-typer><br><br>
+
+            <div v-show="loading" class="load">
+            <loader object="#ff9633" color1="#ffffff" color2="#17fd3d" size="3" speed="2" bg="#343a40" objectbg="#999793"
+            opacity="40" name="circular"></loader></div>
+            
+            <v-row>
+            <v-col class="btn" v-for="ans in shuffle(Answers)" :key="ans">
+            
+            <v-btn @click="checkA(ans)" class="column" type="button"  elevation="4" outlined x-large>{{ans}}</v-btn>
+            </v-col></v-row><br>
+            <!-- <img src="imgs/rustacean-flat-happy.png" id='imageArea'  width="30%" height="30%"> -->
+            
+                
+                <!-- <p>{{Answers}},{{Correct}}</p><p>Id:{{Id}},正解数{{score}},総数{{len}}</p> -->
+            </div>
+            <div v-show="show2">    
+                <p class="num">{{num}}問中 {{score}}問正解！</p>
+
+                <div v-show="show3">
+                    <video id="player1" width="100%" height="400px" preload="none" autoplay loop muted >
+                        <source id="video" src="imgs/obama.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' poster="imgs/ネロukiuki.jpg" >
+                    </video><br>
+                </div>
+
+                <div v-show="show4">
+                    <img src="imgs/sleep.jpg" title="ざんねん">
+                </div>
+                
+                <v-btn href="/" type="button"  elevation="4" outlined large>おしまい ちゃん</v-btn>
+
+            </div>
+          </v-main>
+        </v-app>
+      </div>
+        
+        <script>
+        const VueTyper = window.VueTyper.VueTyper;
+        let url = "https://script.google.com/macros/s/AKfycbyJMpTFY3TtzksiA55STjkx5dp4m3MCRWdQC8bocTgMDLFR98ht/exec";   
+        Vue.use(loader);    
+            new Vue({
+                    el: '#app',
+                    components: {
+                    'vue-typer': VueTyper,
+                    loader: loader,                    
+                    },
+
+                    vuetify: new Vuetify(),
+
+                    data: {
+                        Question: null,
+                        Correct: '',
+                        Answers: '',
+                        Id:'',
+                        num: 1,
+                        score: 0,
+                        show1: true,
+                        show2: false,
+                        show3: true,
+                        show4: false,
+                        len: 1,
+                        loading: false,
+                        
+                    },
+                    //beforeCreate(){
+                    // created(){
+                    //     axios.get("https://script.google.com/macros/s/AKfycbyJMpTFY3TtzksiA55STjkx5dp4m3MCRWdQC8bocTgMDLFR98ht/exec")
+                    //          .then(res => this.len = res.data.length)
+                    //             //console.log(len)
+                    //          .catch(res =>(res))
+                    //this.QuizLength();//先に読み込まない
+                    //},
+                    
+                    created() {                       
+                   
+                        this.InitializeData();                   
+                        //this.imageMix();
+
+                     },
+                    
+                    methods:{
+                       async InitializeData()
+                       {
+                           //ローダー表示
+                           this.loading = true;
+                           //データ初期設定
+                            await axios.get(url)
+                                .then(res =>{
+                                    this.len = res.data.length})
+                                .catch(err => (err));
+                            //console.log(this.len);
+                            //総クイズ数を求め、ランダム数を求める
+                            let i = await Math.floor(Math.random() * this.len);
+                            //console.log(i);
+                            await axios.get(url)
+                                .then(res => {
+                                                this.loading    =   false;
+                                                this.Question   =   res.data[i].Qui
+                                                this.Correct    =   res.data[i].AnsA
+                                                this.Id         =  [res.data[i].Id]
+                                                this.Answers    =  [res.data[i].AnsA,
+                                                                    res.data[i].AnsB,
+                                                                    res.data[i].AnsC,
+                                                                    res.data[i].AnsD]
+                                })
+                                .catch(res => (res));                         
+                        },
+                        // imageMix(){
+                        //     const imageArea = document.getElementById('imageArea');
+                        //     const images = ['imgs/poodle.gif', 'imgs/schnauzer.gif', 'imgs/corgi.gif', 'imgs/shiba.gif', 'imgs/pug.gif'];
+
+                        //     const imageNo = Math.floor( Math.random() * images.length)
+                        //     imageArea.src = images[imageNo];
+                        // },
+                        
+                        
+                        shuffle(array){
+                             //選択肢のランダム配置
+                            const ary = array.slice()
+                            for(let i = array.length -1; i > 0; i--)
+                            {
+                                let y = Math.floor(Math.random() * 3);                           
+                                [ary[i], ary[y]] = [ary[y], ary[i]]
+                            }
+                            //console.log(ary)
+                            return ary
+                        },
+                        //文字列に同一が見つかると"true"
+                        /// => false                      
+                        linearSearch(num) {
+                            let index = -1;
+                            num++;
+                            for(let i = 0, x = this.Id.length; i < x; i++)
+                            {
+                                if (this.Id[i] === num) 
+                                {
+                                    index = i;
+                                    break;
+                                }
+                            }
+                            if(index === -1)
+                                return false
+                            else
+                                return true
+                        },                          
+                                                               
+                        checkA(ans){ 
+                            //答え判定                           
+                            console.log(ans)
+                            if(this.Correct === ans)
+                                this.score++
+                            this.num++
+                            this.loading = true;
+                            let i = 0;
+                            do {
+                                i = Math.floor(Math.random() * this.len);                                
+                            }while(this.linearSearch(i));
+                            //let i = console.log(this.getResult());
+                            // do{
+                            // i = Math.floor( Math.random() * this.len );
+                            // this.getResult(i);
+                            // }while(1);
+
+                            axios.get(url)
+                                 .then(res => {
+                                    this.loading    =  false; 
+                                    this.Question   =  res.data[i].Qui
+                                    this.Correct    =  res.data[i].AnsA                                            
+                                    this.Answers    = [res.data[i].AnsA,
+                                                       res.data[i].AnsB, 
+                                                       res.data[i].AnsC, 
+                                                       res.data[i].AnsD]
+                                 })
+                                 .catch(res => console.log(res))
+                            this.Id.push(i +1)                                        
+                            if(this.num > 5)
+                            {
+                                this.show1 = false;
+                                this.show2 = true;
+
+                                if(this.score < 2)
+                                {
+                                    this.show3 = false;
+                                    this.show4 = true;
+                                };
+                                
+                            }
+                            
+                        }    
+                    },
+                    
+            });
+                     
+        </script>
+
+
+</body>
+</html>

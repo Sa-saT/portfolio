@@ -1,0 +1,12 @@
+/Users/sa-ta/Documents/MyRusts/RustVue/serverRust/target/debug/deps/httparse-cda4fb2d2c1c1f35.rmeta: /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/lib.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/iter.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/macros.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/simd/mod.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/simd/sse42.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/simd/avx2.rs
+
+/Users/sa-ta/Documents/MyRusts/RustVue/serverRust/target/debug/deps/libhttparse-cda4fb2d2c1c1f35.rlib: /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/lib.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/iter.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/macros.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/simd/mod.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/simd/sse42.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/simd/avx2.rs
+
+/Users/sa-ta/Documents/MyRusts/RustVue/serverRust/target/debug/deps/httparse-cda4fb2d2c1c1f35.d: /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/lib.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/iter.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/macros.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/simd/mod.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/simd/sse42.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/simd/avx2.rs
+
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/lib.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/iter.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/macros.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/simd/mod.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/simd/sse42.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.3.6/src/simd/avx2.rs:

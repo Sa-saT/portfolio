@@ -1,0 +1,12 @@
+/Users/sa-ta/Documents/MyRusts/RustVue/serverRust/target/rls/debug/deps/actix_connect-81a1aad5a90e32f5.rmeta: /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/lib.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/connect.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/connector.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/error.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/resolve.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/service.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/ssl/mod.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/uri.rs
+
+/Users/sa-ta/Documents/MyRusts/RustVue/serverRust/target/rls/debug/deps/actix_connect-81a1aad5a90e32f5.d: /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/lib.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/connect.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/connector.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/error.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/resolve.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/service.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/ssl/mod.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/uri.rs
+
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/lib.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/connect.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/connector.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/error.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/resolve.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/service.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/ssl/mod.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-connect-1.0.2/src/uri.rs:

@@ -1,0 +1,12 @@
+/Users/sa-ta/Documents/MyRusts/RustVue/serverRust/target/rls/debug/deps/v_escape-b255ec19459ee125.rmeta: /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/lib.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/macros.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/scalar.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/sse.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/ranges/mod.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/ranges/avx.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/ranges/sse.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/ranges/switch.rs
+
+/Users/sa-ta/Documents/MyRusts/RustVue/serverRust/target/rls/debug/deps/v_escape-b255ec19459ee125.d: /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/lib.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/macros.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/scalar.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/sse.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/ranges/mod.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/ranges/avx.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/ranges/sse.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/ranges/switch.rs
+
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/lib.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/macros.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/scalar.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/sse.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/ranges/mod.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/ranges/avx.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/ranges/sse.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/v_escape-0.7.4/src/ranges/switch.rs:

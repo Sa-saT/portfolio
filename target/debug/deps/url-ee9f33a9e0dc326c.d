@@ -1,0 +1,13 @@
+/Users/sa-ta/Documents/MyRusts/RustVue/serverRust/target/debug/deps/url-ee9f33a9e0dc326c.rmeta: /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/lib.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/host.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/origin.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/parser.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/path_segments.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/slicing.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/quirks.rs
+
+/Users/sa-ta/Documents/MyRusts/RustVue/serverRust/target/debug/deps/liburl-ee9f33a9e0dc326c.rlib: /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/lib.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/host.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/origin.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/parser.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/path_segments.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/slicing.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/quirks.rs
+
+/Users/sa-ta/Documents/MyRusts/RustVue/serverRust/target/debug/deps/url-ee9f33a9e0dc326c.d: /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/lib.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/host.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/origin.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/parser.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/path_segments.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/slicing.rs /Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/quirks.rs
+
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/lib.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/host.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/origin.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/parser.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/path_segments.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/slicing.rs:
+/Users/sa-ta/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.1/src/quirks.rs:
