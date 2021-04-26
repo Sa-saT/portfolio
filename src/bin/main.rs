@@ -14,7 +14,7 @@ use std::time::Duration;
 // }
 
 fn main() {
-    let url = " 18.221.114.239 :80";
+    let url = "18.221.114.239:80";
     let listener = TcpListener::bind(url).unwrap();
     let pool = ThreadPool::new(4);
 
